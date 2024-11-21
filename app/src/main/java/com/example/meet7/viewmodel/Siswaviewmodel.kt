@@ -8,6 +8,7 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 
 class Siswaviewmodel: ViewModel() {
+
     private val _statusUI = MutableStateFlow(Datasiswa())
     val statusUI: StateFlow<Datasiswa> = _statusUI.asStateFlow()
 
